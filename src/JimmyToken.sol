@@ -8,7 +8,11 @@ contract JimmyToken is ERC20, Ownable {
     constructor() ERC20("Bagel Token", "BT") Ownable(msg.sender) { 
     }
 
+
+// mint function
     function mint(address account, uint256 amount) external onlyOwner {
         _mint(account, amount);
     }
+
+
 }
