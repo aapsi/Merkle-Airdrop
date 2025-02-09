@@ -1,4 +1,4 @@
-# Merkle Airdrop Extravaganza
+# Merkle Airdrop Foundry Implementation
 
 
 
